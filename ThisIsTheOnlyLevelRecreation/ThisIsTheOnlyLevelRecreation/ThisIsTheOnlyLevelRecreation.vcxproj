@@ -121,10 +121,16 @@
   <ItemGroup>
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Terrain.cpp" />
+    <ClCompile Include="TerrainManager.cpp" />
+    <ClCompile Include="Toolbox.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h" />
     <ClInclude Include="GameState.h" />
+    <ClInclude Include="Terrain.h" />
+    <ClInclude Include="TerrainManager.h" />
+    <ClInclude Include="Toolbox.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
